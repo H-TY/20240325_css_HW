@@ -8,7 +8,8 @@
 
     <style>
         .container {
-            width: 100%;
+            width: 600px;
+            margin: auto;
             text-align: center;
             position: absolute;
             top: 50%;
@@ -20,12 +21,13 @@
             content: "";
             width: 70px;
             height: 100px;
-            background: white;
+            background: rgb(255, 255, 255);
             transform: skewX(45deg);
             transform-origin: right bottom;
-            position: absolute;
-            bottom: 10%;
-            right: 47%;
+            float: right;
+            position: relative;
+            top: 550px;
+            right: 265px;
             z-index: 1;
         }
 
@@ -33,12 +35,13 @@
             content: "";
             width: 70px;
             height: 100px;
-            background: white;
+            background: rgb(255, 255, 255);
             transform: skewX(-45deg);
             transform-origin: left bottom;
-            position: absolute;
-            bottom: 10%;
-            left: 47%;
+            float: left;
+            position: relative;
+            bottom: 150px;
+            left: 265px;
             z-index: 1;
         }
 
